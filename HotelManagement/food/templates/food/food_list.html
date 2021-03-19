@@ -1,0 +1,8 @@
+{% extends "food/layout.html" %}
+
+{% block body %}
+    <h2>Here is the list of foods</h2>
+    {% for food in foods %}
+        {{ food }}
+    {% endfor %}
+{% endblock %}
